@@ -17,7 +17,7 @@ export default class Categorys extends Component {
 
   render() {
     return (
-    <div>
+    <div className="categorys">
       {this.state.categorys.map((c, index) => {
       return <Category key={index} category={c} />
     })}

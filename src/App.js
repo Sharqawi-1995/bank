@@ -5,6 +5,7 @@ import axios from "axios";
 import Operations from "./components/Operations";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Categorys from "./components/Categorys";
+
 export default class App extends Component {
   constructor() {
     super();
@@ -48,7 +49,7 @@ export default class App extends Component {
             <Link to="/operations">add transaction</Link>
             <Link to="/categorys">Categorys</Link>
           </div>
-
+          
           <Routes>
             <Route
               path="/"
