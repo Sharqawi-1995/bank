@@ -59,21 +59,21 @@ export default class Operations extends Component {
       <div className="Operations">
         <div>
           <div className="OpsInput">
-            amount:
+            Amount:
             <input
               id="amount-input"
               type="number"
               value={this.state.amount}
               onChange={this.handleAmount}
             />
-            category:
+            Category:
             <input
               id="category-input"
               type="text"
               value={this.state.category}
               onChange={this.handleCategory}
             />
-            vendor:
+            Vendor:
             <input
               id="vendor-input"
               type="text"
