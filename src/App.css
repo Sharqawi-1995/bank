@@ -54,7 +54,7 @@
 }
 
 .Transaction button {
-  background-color: mistyrose;
+  cursor: pointer;
 }
 
 .Transactions h4 {
@@ -134,4 +134,9 @@
 
 .sum{
   padding-bottom: 5px;
+}
+
+.link{
+  text-decoration: none;
+    color: white;
 }

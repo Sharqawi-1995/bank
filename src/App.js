@@ -46,10 +46,10 @@ export default class App extends Component {
         <div className="App">
           <div className="mainLinks">
             <Link to="/">Home</Link>
-            <Link to="/operations">add transaction</Link>
+            <Link to="/operations">Add Transaction</Link>
             <Link to="/categorys">Categorys</Link>
           </div>
-          
+
           <Routes>
             <Route
               path="/"
