@@ -10,6 +10,7 @@ export default class Operations extends Component {
       vendor: "",
     };
   }
+
   deposit = () => {
     let amount = this.state.amount;
     let vendor = this.state.vendor;
@@ -22,7 +23,7 @@ export default class Operations extends Component {
       let transaction = { amount, category, vendor };
       this.props.addTransaction(transaction);
     } else {
-      alert("fill all fields");
+      alert("please fill all fields");
     }
   };
 
@@ -38,7 +39,7 @@ export default class Operations extends Component {
       let transaction = { amount: -amount, category, vendor };
       this.props.addTransaction(transaction);
     } else {
-      alert("fill all fields");
+      alert("please fill all fields");
     }
   };
 
