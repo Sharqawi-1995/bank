@@ -6,7 +6,8 @@
 }
 
 .mainLinks {
-  background-color: red;
+  background-color: blue;
+  border-radius: 10px;
 }
 
 .mainLinks a {
@@ -24,7 +25,8 @@
   background-color: rgb(255, 255, 255);
   padding-left: 3px;
   padding-right: 3px;
-  background-color: beige;
+  background-color: orange;
+  border-radius: 5px;
 }
 
 .transactions {
@@ -51,6 +53,9 @@
 
 .Transaction button {
   cursor: pointer;
+  background-color: darkorange;
+  border-radius: 5px;
+  border-style: hidden;
 }
 
 .Transactions h4 {
