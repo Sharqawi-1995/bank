@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Categorys from "./Categorys";
 import Transaction from "./Transaction";
 
 export default class Transactions extends Component {
@@ -25,6 +26,7 @@ export default class Transactions extends Component {
             );
           })}
         </div>
+        <Categorys />
       </div>
     );
   }

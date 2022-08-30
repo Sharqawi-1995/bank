@@ -65,7 +65,7 @@ export default class App extends Component {
               path="/operations"
               element={<Operations addTransaction={this.addTransaction} />}
             />
-            <Route path="/categorys" element={<Categorys />} />
+            <Route path="/categorys" element={<Categorys/>} />
           </Routes>
         </div>
       </Router>
