@@ -84,13 +84,13 @@ export default class Operations extends Component {
           </div>
 
           <button className="depositButton" onClick={this.deposit}>
-            <Link className="link"to="/">
+            <Link className="link" to="/">
               Deposit
             </Link>
           </button>
 
           <button className="withdrawButton" onClick={this.Withdraw}>
-            <Link className="link"to="/">
+            <Link className="link" to="/">
               Withdraw
             </Link>
           </button>

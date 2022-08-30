@@ -17,10 +17,11 @@ export default class Categorys extends Component {
 
   render() {
     return (
-    <div className="categorys">
-      {this.state.categorys.map((c, index) => {
-      return <Category key={index} category={c} />
-    })}
-  </div>
-  )}
+      <div className="categorys">
+        {this.state.categorys.map((c, index) => {
+          return <Category key={index} category={c} />;
+        })}
+      </div>
+    );
+  }
 }
