@@ -10,7 +10,7 @@ export default class Categorys extends Component {
     };
   }
 
-  async componentDidUpdate() {
+  async componentDidMount() {
     let categorys = await axios.get("http://localhost:3200/categorys");
     this.setState({ categorys: categorys.data });
   }
